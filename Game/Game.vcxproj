@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0BED050-044F-418F-ADC9-A391DE636599}</ProjectGuid>
+    <RootNamespace>Pyramid</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionName)Debug</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionName)Release</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;MONKEY="$(SolutionName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Azul\include;$(SolutionDir)Math\include;$(SolutionDir)File\include;$(SolutionDir)Time\include;$(SolutionDir)OpenGL\GLTools\include;$(SolutionDir)OpenGL\GLFW;$(SolutionDir)OpenGL\GLFW\include;$(SolutionDir)Game\UserFiles;$(SolutionDir)Game\BlueBerryContent;$(SolutionDir)Game\BlueBerryEngine</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <StringPooling>false</StringPooling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PreprocessToFile>false</PreprocessToFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>OpenGL32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%libcmt.lib;msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;MONKEY="$(SolutionName)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Azul\include;$(SolutionDir)Math\include;$(SolutionDir)File\include;$(SolutionDir)Time\include;$(SolutionDir)OpenGL\GLTools\include;$(SolutionDir)OpenGL\GLFW;$(SolutionDir)OpenGL\GLFW\include</AdditionalIncludeDirectories>
+      <StringPooling>false</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>OpenGL32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%libcmt.lib;msvcrt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BlueBerryContent\BlueBerryContent.cpp" />
+    <ClCompile Include="BlueBerryEngine\Alarmable.cpp" />
+    <ClCompile Include="BlueBerryEngine\AlarmManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\AlarmMarker.cpp" />
+    <ClCompile Include="BlueBerryEngine\UserSceneManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\Collidable.cpp" />
+    <ClCompile Include="BlueBerryEngine\CollidableGroupBase.cpp" />
+    <ClCompile Include="BlueBerryEngine\CollisionManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\Drawable.cpp" />
+    <ClCompile Include="BlueBerryEngine\DrawableManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\Dumpster.cpp" />
+    <ClCompile Include="BlueBerryEngine\Game.cpp" />
+    <ClCompile Include="BlueBerryEngine\GameObject.cpp" />
+    <ClCompile Include="BlueBerryEngine\Inputable.cpp" />
+    <ClCompile Include="BlueBerryEngine\InputableManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\KeyObject.cpp" />
+    <ClCompile Include="BlueBerryEngine\LoadAllResources.cpp" />
+    <ClCompile Include="BlueBerryEngine\main.cpp" />
+    <ClCompile Include="BlueBerryEngine\ResourceManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\Scene.cpp" />
+    <ClCompile Include="BlueBerryEngine\SceneManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\Subscriber.cpp" />
+    <ClCompile Include="BlueBerryEngine\Terminatable.cpp" />
+    <ClCompile Include="BlueBerryEngine\TerminationManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\TimeManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\Trace.cpp" />
+    <ClCompile Include="BlueBerryEngine\Updatable.cpp" />
+    <ClCompile Include="BlueBerryEngine\UpdatableManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\WGraphicsManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\WModelManager.cpp" />
+    <ClCompile Include="BlueBerryEngine\WTextureManager.cpp" />
+    <ClCompile Include="UserFiles\Cottage.cpp" />
+    <ClCompile Include="UserFiles\Floor.cpp" />
+    <ClCompile Include="UserFiles\SimpleSphere.cpp" />
+    <ClCompile Include="UserFiles\SpaceShip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Azul\include\Azul.h" />
+    <ClInclude Include="..\File\include\File.h" />
+    <ClInclude Include="..\Math\include\MathApp.h" />
+    <ClInclude Include="..\Math\include\MathEngine.h" />
+    <ClInclude Include="..\Time\include\Time.h" />
+    <ClInclude Include="..\Time\include\Timer.h" />
+    <ClInclude Include="BlueBerryEngine\Alarmable.h" />
+    <ClInclude Include="BlueBerryEngine\AlarmEnums.h" />
+    <ClInclude Include="BlueBerryEngine\AlarmManager.h" />
+    <ClInclude Include="BlueBerryEngine\AlarmMarker.h" />
+    <ClInclude Include="BlueBerryEngine\UserSceneManager.h" />
+    <ClInclude Include="BlueBerryEngine\Collidable.h" />
+    <ClInclude Include="BlueBerryEngine\CollidableGroup.h" />
+    <ClInclude Include="BlueBerryEngine\CollidableGroupBase.h" />
+    <ClInclude Include="BlueBerryEngine\CollisionManager.h" />
+    <ClInclude Include="BlueBerryEngine\Drawable.h" />
+    <ClInclude Include="BlueBerryEngine\DrawableManager.h" />
+    <ClInclude Include="BlueBerryEngine\Dumpster.h" />
+    <ClInclude Include="BlueBerryEngine\Game.h" />
+    <ClInclude Include="BlueBerryEngine\GameObject.h" />
+    <ClInclude Include="BlueBerryEngine\Inputable.h" />
+    <ClInclude Include="BlueBerryEngine\InputableManager.h" />
+    <ClInclude Include="BlueBerryEngine\IResource.h" />
+    <ClInclude Include="BlueBerryEngine\ISubManager.h" />
+    <ClInclude Include="BlueBerryEngine\KeyObject.h" />
+    <ClInclude Include="BlueBerryEngine\Resource.h" />
+    <ClInclude Include="BlueBerryEngine\ResourceEnums.h" />
+    <ClInclude Include="BlueBerryEngine\ResourceManager.h" />
+    <ClInclude Include="BlueBerryEngine\Scene.h" />
+    <ClInclude Include="BlueBerryEngine\SceneEnums.h" />
+    <ClInclude Include="BlueBerryEngine\SceneManager.h" />
+    <ClInclude Include="BlueBerryEngine\Subscriber.h" />
+    <ClInclude Include="BlueBerryEngine\Terminatable.h" />
+    <ClInclude Include="BlueBerryEngine\TerminationManager.h" />
+    <ClInclude Include="BlueBerryEngine\TimeManager.h" />
+    <ClInclude Include="BlueBerryEngine\Trace.h" />
+    <ClInclude Include="BlueBerryEngine\Updatable.h" />
+    <ClInclude Include="BlueBerryEngine\UpdatableManager.h" />
+    <ClInclude Include="BlueBerryEngine\WGpuModel.h" />
+    <ClInclude Include="BlueBerryEngine\WGpuTexture.h" />
+    <ClInclude Include="BlueBerryEngine\WGraphicsManager.h" />
+    <ClInclude Include="BlueBerryEngine\WGraphicsObject.h" />
+    <ClInclude Include="BlueBerryEngine\WModelManager.h" />
+    <ClInclude Include="BlueBerryEngine\WTextureManager.h" />
+    <ClInclude Include="UserFiles\Cottage.h" />
+    <ClInclude Include="UserFiles\Floor.h" />
+    <ClInclude Include="UserFiles\SimpleSphere.h" />
+    <ClInclude Include="UserFiles\SpaceShip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Azul\lib\AzulDebug.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Azul\lib\AzulRelease.lib">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\File\lib\FileRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </Library>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BlueBerryEngine\Alarmable.cpp">
+      <Filter>BlueBerryEngine\Components\AlarmableSystem\Alarmable</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryContent\BlueBerryContent.cpp">
+      <Filter>BlueBerryContent</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\LoadAllResources.cpp">
+      <Filter>BlueBerryContent</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\AlarmManager.cpp">
+      <Filter>BlueBerryEngine\Components\AlarmableSystem\AlarmManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\AlarmMarker.cpp">
+      <Filter>BlueBerryEngine\Components\AlarmableSystem\AlarmMarker</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Collidable.cpp">
+      <Filter>BlueBerryEngine\Components\CollisionSystem\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\CollidableGroupBase.cpp">
+      <Filter>BlueBerryEngine\Components\CollisionSystem\CollidableGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\CollisionManager.cpp">
+      <Filter>BlueBerryEngine\Components\CollisionSystem\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\Cottage.cpp">
+      <Filter>DemoFiles\DemoObject\Cottage</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Drawable.cpp">
+      <Filter>BlueBerryEngine\Components\DrawSystem\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\DrawableManager.cpp">
+      <Filter>BlueBerryEngine\Components\DrawSystem\DrawAbleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\Floor.cpp">
+      <Filter>DemoFiles\DemoObject\FloorAxis</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Game.cpp">
+      <Filter>BlueBerryEngine\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\GameObject.cpp">
+      <Filter>BlueBerryEngine\Components\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Inputable.cpp">
+      <Filter>BlueBerryEngine\Components\InputableSystem\Inputable</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\InputableManager.cpp">
+      <Filter>BlueBerryEngine\Components\InputableSystem\InputableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\KeyObject.cpp">
+      <Filter>BlueBerryEngine\Components\InputableSystem\KeyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\main.cpp">
+      <Filter>BlueBerryEngine\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\ResourceManager.cpp">
+      <Filter>BlueBerryEngine\ResourceManager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Scene.cpp">
+      <Filter>BlueBerryEngine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\SceneManager.cpp">
+      <Filter>BlueBerryEngine\Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\SimpleSphere.cpp">
+      <Filter>DemoFiles\DemoObject\SimpleSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFiles\SpaceShip.cpp">
+      <Filter>DemoFiles\DemoObject\SpaceShip</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Subscriber.cpp">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\Subscriber</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Terminatable.cpp">
+      <Filter>BlueBerryEngine\Components\TerminationSystem\Terminatable</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\TerminationManager.cpp">
+      <Filter>BlueBerryEngine\Components\TerminationSystem\TerminationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\TimeManager.cpp">
+      <Filter>BlueBerryEngine\Tools\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Trace.cpp">
+      <Filter>BlueBerryEngine\Tools\Macros</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Updatable.cpp">
+      <Filter>BlueBerryEngine\Components\UpdatableSystem\Updatable</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\UpdatableManager.cpp">
+      <Filter>BlueBerryEngine\Components\UpdatableSystem\UpdateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\WGraphicsManager.cpp">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\WModelManager.cpp">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\WTextureManager.cpp">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\Dumpster.cpp">
+      <Filter>BlueBerryEngine\Components\TerminationSystem\Dumpster</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBerryEngine\UserSceneManager.cpp">
+      <Filter>BlueBerryEngine\Scene\UserSceneManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{654b17f4-5c32-4af8-9c06-44081aee35e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time">
+      <UniqueIdentifier>{00a7d9a7-621b-4cd1-ab70-b15a303a0e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Time\include">
+      <UniqueIdentifier>{22fb9e59-7fdb-44a2-b3f4-aa36c607468e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math">
+      <UniqueIdentifier>{f7cd51a8-6ca7-472f-a6c3-31ce8fde6c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Math\include">
+      <UniqueIdentifier>{20f26c44-6049-453c-9a4b-38e04c3a12c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File">
+      <UniqueIdentifier>{e3abff6f-2abf-4ce0-b8ef-784c3ec6379b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_File\include">
+      <UniqueIdentifier>{9aca96a8-c51f-4709-a910-aa551e8732cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Azul">
+      <UniqueIdentifier>{452fe1b8-c527-4569-8967-51e4f2139f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\_Azul\include">
+      <UniqueIdentifier>{0ad67470-fbca-4090-bba8-5213abfc2846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine">
+      <UniqueIdentifier>{7dfa6802-b35d-4ba3-83ad-e3424616bb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Scene">
+      <UniqueIdentifier>{13a69337-e030-4c71-99c9-3be0bf44a246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Scene\SceneManager">
+      <UniqueIdentifier>{390244ce-4302-4cfe-ab04-83764bf2df3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\ResourceManager">
+      <UniqueIdentifier>{c9521fce-78dc-49f1-af8f-5aa2668889d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\ResourceManager\Resources">
+      <UniqueIdentifier>{f69ca06e-8fb8-478a-b82b-930ff46bb7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\ResourceManager\Managers">
+      <UniqueIdentifier>{fb45b978-7286-4fa1-b842-d4f3fb63708e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\ResourceManager\Managers\SubManagers">
+      <UniqueIdentifier>{8947e543-8bbe-45e6-8ac1-a7530233556f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\GameLoop">
+      <UniqueIdentifier>{53ce78e6-f690-4cef-b216-4a2ce5c4d8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles">
+      <UniqueIdentifier>{5def1640-d453-4fab-9d57-f4e51d41e650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components">
+      <UniqueIdentifier>{2ddcfa01-5959-44fd-acbc-95335bb2dc8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\CollisionSystem">
+      <UniqueIdentifier>{2c534477-6bf7-4509-a759-d36a5e39d2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\DrawSystem">
+      <UniqueIdentifier>{a55a64d6-c5ff-4c8b-aa6e-67f6e51f5e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\DrawSystem\DrawAbleManager">
+      <UniqueIdentifier>{cf6a837a-e3af-4715-b549-2eac1f0ccaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\DrawSystem\Drawable">
+      <UniqueIdentifier>{6ef648be-5c38-48d0-a509-e6b2f52c5be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\CollisionSystem\Collidable">
+      <UniqueIdentifier>{9f98f837-b0e7-47ff-8c9d-dc7832fcef13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\CollisionSystem\CollidableGroup">
+      <UniqueIdentifier>{ed04aeed-f992-499b-8662-cffe75cd836b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\CollisionSystem\CollisionManager">
+      <UniqueIdentifier>{1a482076-255d-465b-8182-8fc47fb980b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\TerminationSystem">
+      <UniqueIdentifier>{45819bec-306d-4eb3-9052-a25b7a3ab676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\TerminationSystem\Terminatable">
+      <UniqueIdentifier>{e76c866e-8f1a-4600-a251-66c805fcb6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\TerminationSystem\TerminationManager">
+      <UniqueIdentifier>{d9657d4e-f296-4cae-8baa-dc5491481b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\InputableSystem">
+      <UniqueIdentifier>{3ebd6c37-a99a-4e46-ac45-cbd07a85456b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\InputableSystem\InputableManager">
+      <UniqueIdentifier>{6f019f50-deea-4bd1-911f-bfc8aa52cab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\InputableSystem\Inputable">
+      <UniqueIdentifier>{7b1cd732-0c46-4abc-8318-c7ef5f8a7af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\UpdatableSystem">
+      <UniqueIdentifier>{fc09ef8b-5e1f-4607-81a5-6128e323e830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\UpdatableSystem\UpdateManager">
+      <UniqueIdentifier>{e970112b-aff5-4d43-a123-f9eebb0fec20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\UpdatableSystem\Updatable">
+      <UniqueIdentifier>{6712aaf7-c4af-496c-9d79-7a913eeeedba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\GameObject">
+      <UniqueIdentifier>{5717ffa4-e7db-49e0-a8e0-f18f2f73ae99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\AlarmableSystem">
+      <UniqueIdentifier>{b641b667-a406-4fbe-a7dc-1737e26cbd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Tools">
+      <UniqueIdentifier>{01f25501-e715-46f5-88e4-1577345ac08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\InputableSystem\KeyObject">
+      <UniqueIdentifier>{22750601-cbe9-4b02-93c2-767f6f30ca75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\AlarmableSystem\Alarmable">
+      <UniqueIdentifier>{f157a5a6-51b7-46e1-ae4a-5a3dcdb522a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\AlarmableSystem\AlarmManager">
+      <UniqueIdentifier>{19af2207-1720-4e3a-8c2d-cc4bfc92bac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\AlarmableSystem\AlarmMarker">
+      <UniqueIdentifier>{afc21048-9d8e-4203-9f47-a9da3da69687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Tools\Macros">
+      <UniqueIdentifier>{96a87385-0e51-4e15-8136-8daac63fca13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Tools\TimeManager">
+      <UniqueIdentifier>{d0976ed7-22a2-4a88-a8c1-c9323b8f20a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\ResourceManager\Managers\Subscriber">
+      <UniqueIdentifier>{b3ed67ef-ec42-45d2-9aa0-1ab97bb1aa79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\ResourceManager\ResourceManager">
+      <UniqueIdentifier>{c15fef2f-b069-4516-ad16-2694a9117a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryContent">
+      <UniqueIdentifier>{ca1774d0-e8fb-4dae-9c14-da3fbd3e56b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\DemoObject">
+      <UniqueIdentifier>{0e2d5629-052d-4acd-a69b-2f2fe47d9cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\DemoObject\SimpleSphere">
+      <UniqueIdentifier>{f9b6b082-7932-4fb8-a750-cd57dd2dcac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\DemoObject\Cottage">
+      <UniqueIdentifier>{1e92d389-8b9c-49ec-a082-76afcd962b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\DemoObject\SpaceShip">
+      <UniqueIdentifier>{ce774bcd-7b1d-4d95-82cf-5843a74d9f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DemoFiles\DemoObject\FloorAxis">
+      <UniqueIdentifier>{9b095f01-4166-48a9-904a-d275e5b08b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Components\TerminationSystem\Dumpster">
+      <UniqueIdentifier>{5302b0db-c133-4ec2-b92a-a9e63fc7cfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlueBerryEngine\Scene\UserSceneManager">
+      <UniqueIdentifier>{a832d442-1dff-4675-895c-2ff0659c721f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Time\include\Time.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Timer.h">
+      <Filter>_Libs\_Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathApp.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>_Libs\_Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_Libs\_File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Azul\include\Azul.h">
+      <Filter>_Libs\_Azul\include</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Alarmable.h">
+      <Filter>BlueBerryEngine\Components\AlarmableSystem\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\AlarmEnums.h">
+      <Filter>BlueBerryEngine\Components\AlarmableSystem\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\AlarmManager.h">
+      <Filter>BlueBerryEngine\Components\AlarmableSystem\AlarmManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\AlarmMarker.h">
+      <Filter>BlueBerryEngine\Components\AlarmableSystem\AlarmMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Collidable.h">
+      <Filter>BlueBerryEngine\Components\CollisionSystem\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\CollidableGroup.h">
+      <Filter>BlueBerryEngine\Components\CollisionSystem\CollidableGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\CollidableGroupBase.h">
+      <Filter>BlueBerryEngine\Components\CollisionSystem\CollidableGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\CollisionManager.h">
+      <Filter>BlueBerryEngine\Components\CollisionSystem\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\Cottage.h">
+      <Filter>DemoFiles\DemoObject\Cottage</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Drawable.h">
+      <Filter>BlueBerryEngine\Components\DrawSystem\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\DrawableManager.h">
+      <Filter>BlueBerryEngine\Components\DrawSystem\DrawAbleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\Floor.h">
+      <Filter>DemoFiles\DemoObject\FloorAxis</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Game.h">
+      <Filter>BlueBerryEngine\GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\GameObject.h">
+      <Filter>BlueBerryEngine\Components\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Inputable.h">
+      <Filter>BlueBerryEngine\Components\InputableSystem\Inputable</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\InputableManager.h">
+      <Filter>BlueBerryEngine\Components\InputableSystem\InputableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\IResource.h">
+      <Filter>BlueBerryEngine\ResourceManager\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\ISubManager.h">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\KeyObject.h">
+      <Filter>BlueBerryEngine\Components\InputableSystem\KeyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Resource.h">
+      <Filter>BlueBerryEngine\ResourceManager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\ResourceEnums.h">
+      <Filter>BlueBerryEngine\ResourceManager\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\ResourceManager.h">
+      <Filter>BlueBerryEngine\ResourceManager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Scene.h">
+      <Filter>BlueBerryEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\SceneEnums.h">
+      <Filter>BlueBerryEngine\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\SceneManager.h">
+      <Filter>BlueBerryEngine\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\SimpleSphere.h">
+      <Filter>DemoFiles\DemoObject\SimpleSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFiles\SpaceShip.h">
+      <Filter>DemoFiles\DemoObject\SpaceShip</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Subscriber.h">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\Subscriber</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Terminatable.h">
+      <Filter>BlueBerryEngine\Components\TerminationSystem\Terminatable</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\TerminationManager.h">
+      <Filter>BlueBerryEngine\Components\TerminationSystem\TerminationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\TimeManager.h">
+      <Filter>BlueBerryEngine\Tools\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Trace.h">
+      <Filter>BlueBerryEngine\Tools\Macros</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Updatable.h">
+      <Filter>BlueBerryEngine\Components\UpdatableSystem\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\UpdatableManager.h">
+      <Filter>BlueBerryEngine\Components\UpdatableSystem\UpdateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\WGpuTexture.h">
+      <Filter>BlueBerryEngine\ResourceManager\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\WGpuModel.h">
+      <Filter>BlueBerryEngine\ResourceManager\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\WGraphicsManager.h">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\WGraphicsObject.h">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\WModelManager.h">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\WTextureManager.h">
+      <Filter>BlueBerryEngine\ResourceManager\Managers\SubManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\Dumpster.h">
+      <Filter>BlueBerryEngine\Components\TerminationSystem\Dumpster</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBerryEngine\UserSceneManager.h">
+      <Filter>BlueBerryEngine\Scene\UserSceneManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Azul\lib\AzulDebug.lib">
+      <Filter>_Libs\_Azul</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <Filter>_Libs\_Time</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathDebug.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathRelease.lib">
+      <Filter>_Libs\_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileDebug.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileRelease.lib">
+      <Filter>_Libs\_File</Filter>
+    </Library>
+    <Library Include="..\Azul\lib\AzulRelease.lib">
+      <Filter>_Libs\_Azul</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
